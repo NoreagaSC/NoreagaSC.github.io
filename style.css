@@ -19,6 +19,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  font-size: 48px;
 }
 
 .image {
@@ -30,13 +31,13 @@ h1 {
 }
 
 .info {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
   color: greenyellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 1px solid coral;
   font-size: 36px;
   width: 400px;
   padding: 20px 20px 10px 20px;
@@ -46,7 +47,6 @@ h1 {
 .textName {
   color: greenyellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 1px solid chocolate;
   font-size: 24px;
   width: 300px;
   padding: 0 20px 0 20px;
@@ -63,7 +63,6 @@ h2.aboutMe {
 }
 
 .aboutMe {
-  border: 1px solid black;
   display: flex;
   justify-content:flex-start;
   flex-direction: column;
@@ -72,7 +71,6 @@ h2.aboutMe {
 .textAbout {
   color: yellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 1px solid blue;
 }
 
 .textAbout.first {
@@ -100,14 +98,12 @@ h2.exp {
 }
 
 .exp {
-  border: 1px solid greenyellow;
   display: flex;
   justify-content:flex-end;
   flex-direction: column;
 }
 
 .expAbout {
-  border: 1px solid greenyellow;
   color:yellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
