@@ -7,6 +7,15 @@ body {
   -ms-background-size: 100%;
   -khtml-background-size: 100%;
   background-size: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -124,6 +133,20 @@ h2.exp {
   align-self: flex-start;
   width: 500px;
   padding: 20px;
+}
+
+.mainPage {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.left {
+  border: 1px solid red;
+}
+
+.right {
+  border: 1px solid blue;
 }
 
 footer {
