@@ -12,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+.header {
+  margin: 30px;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -143,15 +147,29 @@ h2.exp {
 
 .left {
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
 }
 
 .right {
   border: 1px solid blue;
 }
 
+.socialMedia {
+  position: fixed;
+  margin: 15px;
+  padding: 0px;
+}
+
 footer {
   color: olive;
+  margin: 100px;
+  border: 1px solid red;
 }
+
+
+
+
 
 
 
