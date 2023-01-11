@@ -1,14 +1,18 @@
 body {
   background: no-repeat;
-  /* background-image: url(https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
-  width:auto;
+  background: url(https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -khtml-background-size: 100%;
+  background-size: 100%;
 }
 
 h1 {
   color: greenyellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 30px;
-  border: 1px solid black;
 }
 
 .infoMain {
@@ -30,7 +34,9 @@ h1 {
 }
 
 .name {
-  border: 1px solid black;
+  color: greenyellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid coral;
   font-size: 36px;
   width: 400px;
   padding: 20px 20px 10px 20px;
@@ -38,7 +44,9 @@ h1 {
 }
 
 .textName {
-  border: 1px solid black;
+  color: greenyellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid chocolate;
   font-size: 24px;
   width: 300px;
   padding: 0 20px 0 20px;
@@ -49,7 +57,9 @@ h2.aboutMe {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 0 0 0 20px
+  padding: 0 0 0 20px;
+  color: yellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .aboutMe {
@@ -60,6 +70,8 @@ h2.aboutMe {
 }
 
 .textAbout {
+  color: yellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: 1px solid blue;
 }
 
@@ -82,7 +94,9 @@ h2.aboutMe {
 }
 
 h2.exp {
-  padding: 0 0 0 60%
+  padding: 0 0 0 60%;
+  color:yellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .exp {
@@ -94,6 +108,8 @@ h2.exp {
 
 .expAbout {
   border: 1px solid greenyellow;
+  color:yellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .expAbout.first {
@@ -112,6 +128,10 @@ h2.exp {
   align-self: flex-start;
   width: 500px;
   padding: 20px;
+}
+
+footer {
+  color: olive;
 }
 
 
