@@ -1,4 +1,119 @@
-.introduction {
+body {
+  background: no-repeat;
+  /* background-image: url(https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
+  width:auto;
+}
+
+h1 {
   color: greenyellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 30px;
+  border: 1px solid black;
 }
+
+.infoMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.image {
+  border: 5px ridge darkturquoise;
+  background: url(/testPhoto.png);
+  height: 340px;
+  width: 280px;
+  border-radius: 5%;
+}
+
+.info {
+  border: 1px solid black;
+}
+
+.name {
+  border: 1px solid black;
+  font-size: 36px;
+  width: 400px;
+  padding: 20px 20px 10px 20px;
+  margin: 10px 10px 30px 10px;
+}
+
+.textName {
+  border: 1px solid black;
+  font-size: 24px;
+  width: 300px;
+  padding: 0 20px 0 20px;
+  margin: 20px;
+}
+
+h2.aboutMe {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 0 0 20px
+}
+
+.aboutMe {
+  border: 1px solid black;
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+
+.textAbout {
+  border: 1px solid blue;
+}
+
+.textAbout.first {
+  align-self: flex-start;
+  width: 500px;
+  padding: 20px;
+}
+
+.textAbout.second {
+  align-self: center;
+  width: 500px;
+  padding: 20px;
+}
+
+.textAbout.third {
+  align-self: flex-end;
+  width: 500px;
+  padding: 20px;
+}
+
+h2.exp {
+  padding: 0 0 0 60%
+}
+
+.exp {
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content:flex-end;
+  flex-direction: column;
+}
+
+.expAbout {
+  border: 1px solid greenyellow;
+}
+
+.expAbout.first {
+  align-self: flex-end;
+  width: 500px;
+  padding: 20px;
+}
+
+.expAbout.second {
+  align-self: center;
+  width: 500px;
+  padding: 20px;
+}
+
+.expAbout.third {
+  align-self: flex-start;
+  width: 500px;
+  padding: 20px;
+}
+
+
+
+
