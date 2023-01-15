@@ -145,13 +145,6 @@ h2.exp {
   justify-content: space-around;
 }
 
-.left {
-  border: 1px solid red;
-}
-
-.right {
-  border: 1px solid blue;
-}
 
 .socialMedia {
   position: fixed;
@@ -177,7 +170,6 @@ footer {
   color: whitesmoke;
   margin: 100px;
   padding: 0 0 0 75%;
-  border: 1px solid red;
 }
 
 @media (max-width: 1400px) {
