@@ -6,7 +6,7 @@ body {
   -moz-background-size: 100%;
   -ms-background-size: 100%;
   -khtml-background-size: 100%;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -251,18 +251,22 @@ footer {
 
     div .aboutMe {
       align-self: flex-start;
+      width: auto;
     }
 
     div .exp {
       align-self: flex-start;
+      width: auto;
     }
 
     h2 .aboutMe {
       margin: 0 100px 0 100px;
+      width: auto;
     }
 
     h2 .exp {
       margin: 0 100px 0 100px;
+      width: auto;
     }
 }
 
