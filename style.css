@@ -145,13 +145,13 @@ h2.exp {
   justify-content: space-around;
 }
 
-/* .left {
+.left {
   border: 1px solid red;
-} */
+}
 
-/* .right {
+.right {
   border: 1px solid blue;
-} */
+}
 
 .socialMedia {
   position: fixed;
@@ -177,7 +177,104 @@ footer {
   color: whitesmoke;
   margin: 100px;
   padding: 0 0 0 75%;
+  border: 1px solid red;
 }
+
+@media (max-width: 1400px) {
+  .mainPage{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .main {
+      margin: 0 100px 0 100px;
+    }
+
+    .left {
+      order: 1;
+      position: static;
+      margin: 0 0 0 100px;
+    }
+
+    .right {
+      order: 2;
+      position: static;
+      margin: 0 0 0 100px;
+    }
+
+    .left > * {
+      position: static;
+    }
+
+    .mailName {
+      writing-mode: horizontal-tb;
+      padding: 0 0 0 0;
+    }
+
+    .socialMedia {
+      position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainPage{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .main {
+      margin: 0 100px 0 100px;
+    }
+
+    .left {
+      order: 1;
+      position: static;
+      margin: 0 0 0 100px;
+    }
+
+    .right {
+      order: 2;
+      position: static;
+      margin: 0 0 0 100px;
+    }
+
+    .left > * {
+      position: static;
+    }
+
+    .mailName {
+      writing-mode: horizontal-tb;
+      padding: 0 0 0 0;
+    }
+
+    .socialMedia {
+      position: static;
+    }
+
+    .infoMain {
+      flex-direction: column;
+    }
+
+    div .aboutMe {
+      align-self: flex-start;
+    }
+
+    div .exp {
+      align-self: flex-start;
+    }
+
+    h2 .aboutMe {
+      margin: 0 100px 0 100px;
+    }
+
+    h2 .exp {
+      margin: 0 100px 0 100px;
+    }
+}
+
+
 
 
 
